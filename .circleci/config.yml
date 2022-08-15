@@ -153,7 +153,7 @@ jobs:
       - run:
           name: Deploy To Kubernetes Cluster
           command: |
-            aws eks --region us-west-2 update-kubeconfig --name Prod
+            aws eks --region us-east-1 update-kubeconfig --name Prod
             kubectl apply -f kubernetes/loadbalancer.yaml
             kubectl apply -f kubernetes/deployment.yaml
             kubectl get nodes
