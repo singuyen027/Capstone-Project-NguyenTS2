@@ -1,3 +1,4 @@
+[![singuyen027](https://circleci.com/gh/singuyen027/Capstone-Project-NguyenTS2.svg?style=svg)](https://circleci.com/gh/singuyen027/Capstone-Project-NguyenTS2)
 Cloud DevOps Engineer Nanodegree by Udacity: Capstone Project
 What is this project is all about ?
 
@@ -23,7 +24,7 @@ eksctl create cluster --name <cluster-name> --version 1.16 --nodegroup-name stan
 Setup the credentials in CircleCi for AWS credentials and dockerhub credentials
 Installation
 Clone the repo
-git clone https://github.com/MuhammadZubair210/Udacity-Capstone
+git clone https://github.com/singuyen027/Capstone-Project-NguyenTS2
 Run make lint to lint the app locally.
 Run ./run-docker.sh and ./run-kubernetes.sh to run locally.
 Upload the api to DockerHub by using ./upload-docker.sh
