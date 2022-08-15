@@ -1,0 +1,6 @@
+make: Entering directory 'c:/Users/singu/Desktop/Udacity-Capstone-main'
+# Create python virtualenv & source it
+# source ~/.devops/bin/activate
+python3 -m venv ~/.devops
+make: Leaving directory 'c:/Users/singu/Desktop/Udacity-Capstone-main'
+ 
