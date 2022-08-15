@@ -5,12 +5,13 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
-# Make data base, printed on Mon Aug 15 10:58:01 2022
+# Make data base, printed on Mon Aug 15 11:13:42 2022
 
 # Variables
 
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -18,13 +19,17 @@ LC_ALL = C
 # environment
 USERPROFILE = C:\Users\singu
 # environment
+LOCAL_GIT_DIRECTORY = C:\Users\singu\AppData\Local\GitHubDesktop\app-3.0.5\resources\app\git
+# environment
 LOCALAPPDATA = C:\Users\singu\AppData\Local
 # environment
-VSCODE_CWD = C:\Users\singu\Desktop
+VSCODE_CWD = C:\WINDOWS\system32
 # environment
 CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
 # environment
 SYSTEMROOT = C:\WINDOWS
+# environment
+EDGE_VARIATIONS_SEED_ETAG = "g8UvHH9kuqm8blZuRy9Ig0Q7Mot+u6jB5IxldQAQkEQ="
 # environment
 PROCESSOR_LEVEL = 6
 # environment
@@ -34,7 +39,10 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9300_NLLWYVUUAJSGCUIV
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13252_JLACXNDWKAQQKNIJ
+# e 
+nvironment
+FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -64,7 +72,7 @@ MAKEFLAGS = pqrR
 # environment
 ONEDRIVE = C:\Users\singu\OneDrive
 # makefile
-CURDIR := c:/Users/singu/Desktop/Udacity-Capstone-main
+CURDIR := d:/Capstone-Project-NguyenTS2
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # automatic
@@ -77,6 +85,8 @@ MFLAGS = -pqrR
 .SHELLFLAGS := -c
 # environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+EDGE_METRICS_CLIENT_ID_HASH = -9004746725971256705
 # automatic
 +D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
 # makefile (from 'Makefile', line 1)
@@ -84,10 +94,9 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 9300
+VSCODE_PID = 13252
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
- 
 # automatic
 *F = $(notdir $*)
 # automatic
@@ -117,7 +126,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\VietPN;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Kubernetes\Minikube;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\minikube;C:\Users\singu\scoop\apps\ruby\current\bin;C:\Users\singu\scoop\apps\ruby\current\gems\bin;C:\Users\singu\scoop\apps\python\current\Scripts;C:\Users\singu\scoop\apps\python\current;C:\Users\singu\scoop\apps\perl\current\perl\site\bin;C:\Users\singu\scoop\apps\perl\current\perl\bin;C:\Users\singu\go\bin;C:\Users\singu\scoop\shims;C:\Users\singu\AppData\Roaming\local\bin;C:\Users\singu\AppData\Local\Programs\Python\Python310; C:\Users\singu\AppData\Local\Programs\Python\Python310\Lib\site-packages; C:\Users\singu\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\singu\AppData\Local\Programs\Microsoft VS Code\bin
+PATH = C:\Program Files (x86)\Microsoft\Edge\Application;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\VietPN;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Kubernetes\Minikube;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\minikube;C:\Users\singu\scoop\apps\ruby\current\bin;C:\Users\singu\scoop\apps\ruby\current\gems\bin;C:\Users\singu\scoop\apps\python\current\Scripts;C:\Users\singu\scoop\apps\python\current;C:\Users\singu\scoop\apps\perl\current\perl\site\bin;C:\Users\singu\scoop\apps\perl\current\perl\bin;C:\Users\singu\go\bin;C:\Users\singu\scoop\shims;C:\Users\singu\AppData\Roaming\local\bin;C:\Users\singu\AppData\Local\Programs\Python\Python310; C:\Users\singu\AppData\Local\Programs\Python\Python310\Lib\site-packages; C:\Users\singu\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\singu\AppData\Local\Programs\Microsoft VS Code\bin
 # environment
 COMPUTERNAME = SESS-SAMA
 # default
@@ -138,6 +147,8 @@ USERNAME = singu
 COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # automatic
 ?F = $(notdir $?)
+# environment
+CHROME_RESTART = Microsoft Edge|Microsoft Edge has stopped working. Restart it?|LEFT_TO_RIGHT
 # environment
 PROGRAMW6432 = C:\Program Files
 # environment
@@ -161,9 +172,14 @@ PROGRAMFILES(X86) = C:\Program Files (x86)
 # environment
 USERDOMAIN_ROAMINGPROFILE = SESS-SAMA
 # environment
+EDGE_USER_DATA_DIR = C:\Users\sin 
+gu\AppData\Local\Microsoft\Edge\User Data
+# environment
 NUMBER_OF_PROCESSORS = 12
 # environment
 PUBLIC = C:\Users\Public
+# environment
+EDGE_UX_CONFIG_CORRELATION_ID = 
 # environment
 APPDATA = C:\Users\singu\AppData\Roaming
 # environment
@@ -194,6 +210,14 @@ SUFFIXES :=
 ALLUSERSPROFILE = C:\ProgramData
 # environment
 SESSIONNAME = Console
+# environment
+EDGE_METRICS_SESSION_ID = 1119
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+EDGE_BROWSER_PID = 10204
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
@@ -201,7 +225,7 @@ PROCESSOR_REVISION = 9e0a
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
 # variable set hash-table stats:
-# Load=94/1024=9%, Rehash=0, Collisions=9/124=7%
+# Load=106/1024=10%, Rehash=0, Collisions=11/136=8%
 
 # Pattern-specific Variable Values
 
@@ -209,9 +233,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
 
 # Directories
 
-# . (key c:/Users/singu/Desktop/Udacity-Capstone-main, mtime 1660535881): 18 files, no impossibilities.
+# . (key d:/Capstone-Project-NguyenTS2, mtime 1660536616): 19 files, no impossibilities.
 
-# 18 files, no impossibilities in 1 directories.
+# 19 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -315,13 +339,12 @@ install:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 25 / storage = 248 B / avg = 9 B
-# current buf: size = 8174 B / used = 248 B / count = 25 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 26 / storage = 259 B / avg = 9 B
+# current buf: size = 8174 B / used = 259 B / count = 26 / avg = 9 B
 
-# strcache performance: lookups = 39 / hit rate 
- = 35%
+# strcache performance: lookups = 40 / hit rate = 35%
 # hash-table stats:
-# Load=25/8192=0%, Rehash=0, Collisions=0/39=0%
-# Finished Make data base on Mon Aug 15 10:58:01 2022
+# Load=26/8192=0%, Rehash=0, Collisions=0/40=0%
+# Finished Make data base on Mon Aug 15 11:13:43 2022
 
  
