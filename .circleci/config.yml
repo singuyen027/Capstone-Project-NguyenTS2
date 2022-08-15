@@ -154,8 +154,8 @@ jobs:
           name: Deploy To Kubernetes Cluster
           command: |
             aws eks --region us-west-2 update-kubeconfig --name Prod
-            kubectl apply -f kube/loadbalancer.yaml
-            kubectl apply -f kube/deployment.yaml
+            kubectl apply -f kubernetes/loadbalancer.yaml
+            kubectl apply -f kubernetes/deployment.yaml
             kubectl get nodes
             kubectl get deployment
             kubectl get pod
@@ -163,7 +163,7 @@ jobs:
       - run:
           name: Rolling Restart
           command: |
-            kubectl --kubeconfig ~/.kube/config rollout restart deployment udacity-capstone
+            kubectl --kubeconfig ~/.kubernetes/config rollout restart deployment udacity-capstone
 
 
 workflows:
