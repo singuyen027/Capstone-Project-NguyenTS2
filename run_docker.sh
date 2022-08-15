@@ -4,7 +4,7 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-docker build -t NguyenTS2-Project5 .
+docker build --tag=project5 .
 
 # Step 2: 
 # List docker images
@@ -12,4 +12,4 @@ docker ps
 
 # Step 3: 
 # Run flask app
-docker run -p 8000:80 NguyenTS2-Project5
+docker run -p 8000:80 project5
