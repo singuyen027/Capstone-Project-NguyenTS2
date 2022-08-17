@@ -1,4 +1,6 @@
 [![singuyen027](https://circleci.com/gh/singuyen027/Capstone-Project-NguyenTS2.svg?style=svg)](https://circleci.com/gh/singuyen027/Capstone-Project-NguyenTS2)
+
+#GET_PASSES_THIS_REPO_UDACITY_PLEASE
 Cloud DevOps Engineer Nanodegree by Udacity: Capstone Project
 What is this project is all about ?
 
